@@ -1,7 +1,7 @@
 # Required
 base_url = 'https://shinkwhek.github.io'
 title = "Insomnia High"
-theme = "casper" # to disable theming, specify "none".
+theme = "my_website" # to disable theming, specify "none".
 
 # Optional, will be empty by default
 subtitle = "and shinkwhek's doodle"
@@ -11,16 +11,16 @@ description = '''
 copyright = "Copyright 2019 shinkwhek"
 
 # Optional, will be this value by default
-lang    = "en-us"
+lang    = "ja-jp"
 source  = "src"     # directory to find source files
 output  = "output"  # directory to output processed files
 content = "content" # files in this directory will be copied directly to ./${output}/
 themes  = "themes"  # directory to find themes
 
 # Optional, disabled by default
-tag     = "tag"     # tag archives will be generated to
+tag     = "blog/tag"     # tag archives will be generated to
                     # ./${output}/${tag}/${tag-name}.html
-archive = "archive" # monthly archives will be generated to
+archive = "blog/archive" # monthly archives will be generated to
                     # ./${output}/${archive}/${yyyy}-${mm}.html
 # cache   = ".cache"  # directory to store caches for skipping unchanged documents
                       # (not implemented yet)
