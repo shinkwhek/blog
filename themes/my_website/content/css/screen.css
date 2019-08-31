@@ -34,7 +34,7 @@ audio, canvas, video { display: inline-block; }
 audio:not([controls]) { display: none; height: 0; }
 [hidden], template { display: none; }
 html {
-   font-family:  -apple-system, 'Segoe UI', 'Avenir', sans-serif, arial;
+   font-family: sans-serif;
    -ms-text-size-adjust: 100%;
    -webkit-text-size-adjust: 100%;
 }
@@ -190,12 +190,10 @@ body {
     font-size: 1.8rem;
     line-height: 1.75em;
     color: #3A4145;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
     -webkit-font-feature-settings: 'kern' 1;
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1;
+    text-rendering: geometricPrecision;
 }
 
 ::-moz-selection {
@@ -213,7 +211,7 @@ h4, h5, h6 {
     -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     color: #2E2E2E;
     line-height: 1.15em;
-    margin: 3em 0 0.4em 0;
+    margin: 0 0 0.4em 0;
     font-family: "Open Sans", sans-serif;
     text-rendering: geometricPrecision;
 }
@@ -1093,10 +1091,6 @@ body:not(.post-template) .post-title {
     display: none;
 }
 
-.post-content h2 {
-    padding-top: 5em;
-}
-
 /* Keep images centered, and allow images wider than the main
    text column to break out. */
 .post-content img {
@@ -1887,7 +1881,7 @@ body:not(.post-template) .post-title {
 
     h1, h2, h3,
     h4, h5, h6 {
-        margin: 3em 0 0.3em 0;
+        margin: 0 0 0.3em 0;
     }
 
     h1 {
