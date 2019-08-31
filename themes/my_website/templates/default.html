@@ -1,10 +1,11 @@
 %% def title = \
-  if is_null title then config.title \
-  else title + " - " + config.title
+if is_null title then config.title \
+else title + " - " + config.title
 %% def description = description ?| config.description ?| ""
 
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -21,9 +22,11 @@
   <link rel="shortcut icon" href="{{config.base_url}}/favicon.png">
 
   <link rel="stylesheet" type="text/css" href="{{config.base_url}}/css/screen.css" />
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+  <link rel="stylesheet" type="text/css"
+    href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
 
-  <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <script type="text/javascript"
+    src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
   <link rel="stylesheet" href="{{config.base_url}}/highlight/styles/default.css">
   <script src="{{config.base_url}}/highlight/highlight.pack.js"></script>
@@ -31,6 +34,7 @@
 </head>
 
 %% def body_class = body_class ?| ""
+
 <body class="{{body_class}}">
   <header class="default-header">
     <nav class="main-nav clearfix">
@@ -38,8 +42,8 @@
       <a class="nav-item" href="{{config.base_url}}/blog/index.html">Blog</a>
     </nav>
   </header>
-  
-<span class="nav-cover"></span>
+
+  <span class="nav-cover"></span>
 
   <div class="site-wrapper">
     {{content}}
@@ -48,17 +52,19 @@
   <footer class="site-footer clearfix">
     <section class="copyright">
       <p>
-        Articles are licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> (unless explicitly mentioned)
+        Articles are licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> (unless
+        explicitly mentioned)
       </p>
       <p>
-        Code examples are licensed under the <a href="https://directory.fsf.org/wiki/License:Expat">Expat(MIT) license</a>.
+        Code examples are licensed under the <a href="https://directory.fsf.org/wiki/License:Expat">Expat(MIT)
+          license</a>.
       </p>
-      <p style="text-align:left;margin-top:10px;"><img src="{{config.base_url}}/img/by-sa.png" alt="CC BY-SA 3.0"/></p>
+      <p style="text-align:left;margin-top:10px;"><img src="{{config.base_url}}/img/by-sa.png" alt="CC BY-SA 3.0" /></p>
     </section>
     <section class="poweredby">
       <p>
         This site is powered by <a href="https://github.com/cannorin/flxble">Flxble</a>,
-        and <a href="{{config.base_url}}/blog/2019/flxble.html">it's my own blog engine!</a>
+        and <a href="https://7colou.red/blog/2019/flxble.html">it's a blog engine by cannorin!</a>
       </p>
     </section>
   </footer>
@@ -68,4 +74,5 @@
   <script type="text/javascript" src="{{config.base_url}}/js/index.js"></script>
 
 </body>
+
 </html>
