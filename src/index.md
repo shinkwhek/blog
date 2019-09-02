@@ -18,8 +18,4 @@ I'm shinkwhek.
 
 [GitHub](https://github.com/shinkwhek)
 
-## Patron
-
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K4B4Y9)
-
 
