@@ -9,7 +9,7 @@ tags = ["3DCG", "Blender"]
 髪のモデリング手法の一例
 
 ## 環境
-+ Blender 2.8
++ Blender 2.8x
 
 ## 目次
 1. 髪のテクスチャを用意する
@@ -72,7 +72,7 @@ tags = ["3DCG", "Blender"]
 
 ## ア
 
-説明に用いたBlederファイルは配布します。
+説明に用いたBlederファイルおよびテクスチャは[CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.ja)で配布します。
 [how_to_hair.zip](how_to_hair.zip)
 
 この手法が有効なシーンは髪にモデリングに限りません。一般にUVはシンプルな段階で展開しきっておくことで後の作業が容易になる直感があります。
