@@ -8,7 +8,7 @@ subtitle = "and shinkwhek's doodle"
 description = '''
 \XoX/
 '''
-copyright = "Copyright 2019 shinkwhek"
+copyright = "Copyright 2020 shinkwhek"
 
 # Optional, will be this value by default
 lang    = "ja-jp"
@@ -26,7 +26,7 @@ archive = "blog/archive" # monthly archives will be generated to
                       # (not implemented yet)
 
 ## Markdown config (optional) 
-markdown = "common"   # set this "advanced" to enable popular extensions
+markdown = "advanced"   # set this "advanced" to enable popular extensions
 # markdown_extra_rules = "extra_rules"
                       # put your custom rule definitions here (not implemented yet)
 
